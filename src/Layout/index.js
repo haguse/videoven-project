@@ -1,6 +1,6 @@
 import React from "react";
 import { VideosSection, AppealSection, EasyUsageSection } from "./ScLayout";
-import Navbar from "../components/Navbar";
+import Navbar from "../components/VideosSection/Navbar";
 
 const index = () => {
   return (
