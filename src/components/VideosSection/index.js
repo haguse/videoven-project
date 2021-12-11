@@ -1,7 +1,15 @@
 import React from "react";
+import VideosContent from "./VideosContent";
+import PhoneContent from "./PhoneContent";
+import { Container } from "./ScVideosSection";
 
-const index = () => {
-  return <div></div>;
+const VideosSection = () => {
+  return (
+    <Container className="">
+      <VideosContent />
+      <PhoneContent />
+    </Container>
+  );
 };
 
-export default index;
+export default VideosSection;

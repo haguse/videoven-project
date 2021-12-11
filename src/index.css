@@ -1,5 +1,9 @@
 /* Euclid Circular A FOnt */
 @import url(//db.onlinewebfonts.com/c/a575313c6dc4fd00c1a9506e1c3ea4fc?family=Euclid+Circular+A);
+/* Nunito Font */
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+/* DM Sans Font */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 
 /* Reset CSS */
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -148,4 +152,26 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
 }

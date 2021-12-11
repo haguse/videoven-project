@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
   return (
-    <Nav>
+    <Nav className="">
       <Brand>
         <h1>Videoven</h1>
       </Brand>

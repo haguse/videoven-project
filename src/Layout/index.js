@@ -1,15 +1,17 @@
 import React from "react";
-import { VideosSection, AppealSection, EasyUsageSection } from "./ScLayout";
+import { Videos, Appeal, EasyUsage } from "./ScLayout";
 import Navbar from "../components/VideosSection/Navbar";
+import VideosSection from "../components/VideosSection";
 
 const index = () => {
   return (
     <>
-      <VideosSection>
+      <Videos className="container">
         <Navbar />
-      </VideosSection>
-      <AppealSection />
-      <EasyUsageSection />
+        <VideosSection />
+      </Videos>
+      <Appeal></Appeal>
+      <EasyUsage></EasyUsage>
     </>
   );
 };

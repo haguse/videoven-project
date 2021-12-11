@@ -5,6 +5,7 @@ export const Nav = styled.nav`
   align-items: center;
   justify-content: space-between;
   font-family: "Euclid Circular A";
+  padding: 1rem 0;
 `;
 
 export const Brand = styled.div`
