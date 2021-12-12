@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Arrow from "../../../images/AppealSection/Bakgrounds/AppealBg.svg";
 
 export const CommentContainer = styled.div`
   position: relative;

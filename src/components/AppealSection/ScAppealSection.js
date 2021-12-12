@@ -1,9 +1,8 @@
 import styled from "styled-components";
-// import Lines from "../../images/AppealSection/Bakgrounds/AppealLines.svg";
-// import Bg from "../../images/AppealSection/Bakgrounds/AppealBg.svg";
 
 export const Container = styled.div`
   display: flex;
+  position: relative;
   margin-top: auto;
   margin-bottom: auto;
   flex-direction: column;
@@ -15,5 +14,44 @@ export const Container = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .peoples {
+    position: absolute;
+
+    @media screen and (max-width: 920px) {
+      display: none;
+    }
+
+    img {
+      position: absolute;
+    }
+    img:first-child {
+      top: -120px;
+      left: 300px;
+    }
+    img:nth-child(2) {
+      top: 50px;
+      left: 300px;
+    }
+    img:nth-child(3) {
+      top: 80px;
+      left: 490px;
+    }
+    img:nth-child(4) {
+      top: -90px;
+      left: 540px;
+    }
+    img:nth-child(5) {
+      top: -120px;
+      left: 690px;
+    }
+    img:nth-child(6) {
+      top: -260px;
+      left: 850px;
+      @media screen and (max-width: 1047px) {
+        display: none;
+      }
+    }
   }
 `;
