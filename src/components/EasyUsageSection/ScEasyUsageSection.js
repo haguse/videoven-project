@@ -10,13 +10,14 @@ export const Container = styled.div`
   @media screen and (min-width: 920px) {
     justify-content: space-between;
   }
+
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 
   .easy-usage {
     &__title {
-      font-family: "Euclid Circular A";
+      font-family: Nunito, monospace;
       font-size: 2.25rem;
       text-align: center;
     }
@@ -24,7 +25,6 @@ export const Container = styled.div`
       font-size: 1.125rem;
       margin-top: 1rem;
       line-height: 1.125rem;
-      font-family: "Euclid Circular A";
       font-family: Nunito, monospace;
       @media screen and (max-width: 920px) {
         margin-left: 0.2rem;
@@ -33,8 +33,8 @@ export const Container = styled.div`
     @media screen and (max-width: 920px) {
       margin-top: 2rem;
     }
-    @media screen and (min-height: 1000px) {
-      margin-top: 3rem;
+    @media screen and (min-height: 800px) {
+      margin-top: 4rem;
     }
   }
 

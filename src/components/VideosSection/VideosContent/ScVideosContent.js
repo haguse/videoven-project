@@ -71,7 +71,7 @@ export const Container = styled.div`
   .texts {
     &__first {
       font-size: 3rem;
-      font-family: "Euclid Circular A";
+      font-family: Nunito, monospace;
       font-weight: bold;
 
       @media screen and (max-width: 768px) {

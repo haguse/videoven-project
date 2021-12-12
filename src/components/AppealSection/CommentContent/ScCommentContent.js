@@ -16,7 +16,7 @@ export const CommentContainer = styled.div`
     }
 
     p {
-      font-family: "Euclid Circular A";
+      font-family: Nunito, monospace;
       font-size: 2.25rem;
       font-weight: bold;
       @media (max-width: 920px) {

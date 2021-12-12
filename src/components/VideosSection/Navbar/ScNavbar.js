@@ -4,7 +4,7 @@ export const Nav = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Euclid Circular A";
+  font-family: Nunito, monospace;
   padding: 1rem 0;
 `;
 
@@ -31,7 +31,7 @@ export const NavItems = styled.div`
 
 export const Buttons = styled.div`
   button {
-    font-family: "Euclid Circular A";
+    font-family: Nunito, monospace;
     border: none;
     padding: 0.625rem 1.25rem;
     margin: 0 0.4rem;

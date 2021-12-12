@@ -24,7 +24,7 @@ export const TextArea = styled.div`
   position: absolute;
   display: flex;
   align-items: center;
-  font-family: "Euclid Circular A";
+  font-family: Nunito, monospace;
   justify-content: center;
   top: 40px;
   right: -14px;
@@ -34,7 +34,7 @@ export const TextArea = styled.div`
   height: 3.625rem;
 
   p {
-    font-family: "Euclid Circular A";
+    font-family: Nunito, monospace;
     font-size: 1.5rem;
   }
 `;
