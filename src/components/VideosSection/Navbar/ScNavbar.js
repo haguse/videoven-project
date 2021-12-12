@@ -10,7 +10,7 @@ export const Nav = styled.nav`
 
 export const Brand = styled.div`
   h1 {
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     cursor: pointer;
   }
 `;
@@ -21,7 +21,7 @@ export const NavItems = styled.div`
     margin: 0 0.4rem;
     cursor: pointer;
     /* font-size: 0.75rem; */
-    font-size: 0.85rem;
+    font-size: 1rem;
     color: #adadad;
   }
   @media screen and (max-width: 920px) {
@@ -56,6 +56,7 @@ export const Buttons = styled.div`
 
 export const Hamburger = styled.div`
   cursor: pointer;
+  font-size: 1.5rem;
   @media screen and (min-width: 920px) {
     display: none;
   }

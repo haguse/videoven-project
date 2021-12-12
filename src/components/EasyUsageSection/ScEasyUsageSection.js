@@ -26,6 +26,9 @@ export const Container = styled.div`
       font-family: "Euclid Circular A";
       font-family: Nunito, monospace;
     }
+    @media screen and (max-width: 920px) {
+      margin-top: 2rem;
+    }
   }
 
   .content {
@@ -71,8 +74,21 @@ export const Container = styled.div`
       top: 10%;
       left: 21.1%;
 
+      @media screen and (max-width: 1010px) {
+        top: 10%;
+        left: 17.8%;
+      }
+
       @media screen and (max-width: 920px) {
         position: static;
+      }
+
+      img {
+        @media screen and (max-width: 500px) {
+          width: 80%;
+          display: flex;
+          margin: 0 auto;
+        }
       }
     }
 
