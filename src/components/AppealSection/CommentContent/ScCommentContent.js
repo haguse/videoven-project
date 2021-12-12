@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ArrowBg from "../../../images/AppealSection/Bakgrounds/Arrow.svg";
 
 export const CommentContainer = styled.div`
   position: relative;
@@ -8,22 +9,42 @@ export const CommentContainer = styled.div`
 
   .label {
     margin: 0 0 8rem 4rem;
+    display: flex;
 
     @media (max-width: 920px) {
       margin: 0 0 2rem 4rem;
     }
 
     p {
+      font-family: "Euclid Circular A";
       font-size: 2.25rem;
       font-weight: bold;
       @media (max-width: 920px) {
         margin-top: -1.5rem;
+        font-size: 1.75rem;
+        margin-left: -60px;
       }
     }
   }
 `;
 
 export const Comment = styled.div`
+  font-family: Nunito, monospace;
+
+  .arrow-bg {
+    background-image: url(${ArrowBg});
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -30px;
+    z-index: -100;
+
+    @media (max-width: 920px) {
+      display: none;
+    }
+  }
+
   padding: 2.5rem;
 
   @media (max-width: 920px) {

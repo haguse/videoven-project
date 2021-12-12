@@ -10,6 +10,7 @@ const CommentContent = () => {
         </p>
       </div>
       <Comment>
+        <div className="arrow-bg"></div>
         <div id="corner" className="outer">
           <div className="inner"></div>
           <p className="author">Tanem Seçkin - CRO @Koluman</p>

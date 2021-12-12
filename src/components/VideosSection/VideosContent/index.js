@@ -7,9 +7,7 @@ const VideosContent = () => {
       <div className="outer">
         <div className="inner"></div>
         <div className="texts">
-          <p className="texts__first">
-            İşinizi Güçlendirecek <br /> Videolar
-          </p>
+          <p className="texts__first">İşinizi Güçlendirecek Videolar</p>
           <div className="yellow-circle"></div>
           <div className="black-circle"></div>
           <p className="texts__second">Artık İnteraktif</p>

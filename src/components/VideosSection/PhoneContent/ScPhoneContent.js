@@ -24,6 +24,7 @@ export const TextArea = styled.div`
   position: absolute;
   display: flex;
   align-items: center;
+  font-family: "Euclid Circular A";
   justify-content: center;
   top: 40px;
   right: -14px;

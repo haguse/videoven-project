@@ -82,6 +82,7 @@ export const Container = styled.div`
       font-size: 3rem;
       color: #5b44f3;
       margin: 1.125rem 0;
+      font-family: Nunito, monospace;
       @media screen and (max-width: 768px) {
         font-size: 2rem;
       }

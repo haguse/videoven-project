@@ -31,11 +31,11 @@ export const Container = styled.div`
       left: 300px;
     }
     img:nth-child(2) {
-      top: 50px;
+      top: 80px;
       left: 300px;
     }
     img:nth-child(3) {
-      top: 80px;
+      top: 120px;
       left: 490px;
     }
     img:nth-child(4) {

@@ -16,6 +16,7 @@ export const Container = styled.div`
 
   .easy-usage {
     &__title {
+      font-family: "Euclid Circular A";
       font-size: 2.25rem;
       text-align: center;
     }
@@ -25,9 +26,15 @@ export const Container = styled.div`
       line-height: 1.125rem;
       font-family: "Euclid Circular A";
       font-family: Nunito, monospace;
+      @media screen and (max-width: 920px) {
+        margin-left: 0.2rem;
+      }
     }
     @media screen and (max-width: 920px) {
       margin-top: 2rem;
+    }
+    @media screen and (min-height: 1000px) {
+      margin-top: 3rem;
     }
   }
 
