@@ -38,3 +38,7 @@ Start
 
 `yarn start` or `npm start`
 <br/>
+
+#### Built with
+* [ReactJS](https://reactjs.org/)
+* [styled-components](https://styled-components.com/)
