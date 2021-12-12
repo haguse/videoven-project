@@ -15,11 +15,10 @@ export const Videos = styled.div`
 export const Appeal = styled.div`
   min-height: 100vh;
   display: flex;
-  background-image: url(${AppealLines}), url(${AppealLines}), url(${AppealBg}),
-    url(${AppealBg});
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-size: 100%, 100%, 100%, 100%;
-  background-position: bottom, top, bottom, top;
+  background-image: url(${AppealLines}), url(${AppealLines}), url(${AppealBg});
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: cover, cover, cover;
+  background-position: bottom, top, center;
   z-index: -1;
   position: relative;
 `;

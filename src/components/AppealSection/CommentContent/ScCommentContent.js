@@ -8,15 +8,28 @@ export const CommentContainer = styled.div`
 
   .label {
     margin: 0 0 8rem 4rem;
+
+    @media (max-width: 920px) {
+      margin: 0 0 2rem 4rem;
+    }
+
     p {
       font-size: 2.25rem;
       font-weight: bold;
+      @media (max-width: 920px) {
+        margin-top: -1.5rem;
+      }
     }
   }
 `;
 
 export const Comment = styled.div`
   padding: 2.5rem;
+
+  @media (max-width: 920px) {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
   background-color: white;
   box-shadow: 0px 8px 20px rgba(204, 204, 204, 0.25);
   max-width: 30rem !important;

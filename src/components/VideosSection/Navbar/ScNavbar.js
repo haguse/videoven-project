@@ -13,9 +13,6 @@ export const Brand = styled.div`
     font-size: 1.125rem;
     cursor: pointer;
   }
-  @media screen and (max-width: 920px) {
-    margin: 0 auto;
-  }
 `;
 
 export const NavItems = styled.div`
