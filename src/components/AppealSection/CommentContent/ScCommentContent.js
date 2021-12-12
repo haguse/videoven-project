@@ -24,12 +24,6 @@ export const Comment = styled.div`
   align-self: flex-end;
   border-radius: 10px;
 
-  background-image: url(${Arrow});
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-
   .outer {
     position: relative;
     margin: 1.125rem;
