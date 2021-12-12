@@ -28,7 +28,7 @@ export const Container = styled.div`
   .outer:before {
     border-left: 3px solid black;
     border-top: 3px solid black;
-    border-radius: 0.4rem;
+    border-radius: 0.2rem;
     top: -1.125rem;
     left: -1.125rem;
   }
@@ -38,7 +38,7 @@ export const Container = styled.div`
     right: 0;
     border-right: 3px solid black;
     border-bottom: 3px solid black;
-    border-radius: 0.4rem;
+    border-radius: 0.2rem;
     bottom: -1.125rem;
     right: -1.125rem;
   }
